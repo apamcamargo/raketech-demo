@@ -141,6 +141,14 @@ Make sure you already have Allure Report installed on your machine. To generate 
   * Check if Leia Organa is from Alderaan planet
   * Check if Beru Whitesun lars is from Tatooine planet
 
+### UI
+* 1 UI test that follow the steps below:
+   * Search for products page on Raketech web page
+   * Open Products page
+   * Select CasinoGuide product
+   * Go to CasinoGuide web page through globe icon
+   * Validate Home page icon and Canonical HRef
+
 ---
 
 # Evidence of Test Execution 📊
