@@ -1,6 +1,6 @@
 # Raketech Automation Testing Project
 
-## Overview 🚀
+## Overview 📚
 
 This project is a comprehensive framework for UI and API automation testing. It supports Selenium WebDriver for browser-based tests and Rest-Assured for API validations, integrated with Allure for detailed reporting.
 
