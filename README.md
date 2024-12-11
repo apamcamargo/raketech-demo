@@ -4,6 +4,28 @@
 
 This project is a comprehensive framework for UI and API automation testing. It supports Selenium WebDriver for browser-based tests and Rest-Assured for API validations, integrated with Allure for detailed reporting.
 
+### Table of Contents
+
+1. [Technologies Used 🛠️](#technologies-used-️)
+   - [Programming Language](#programming-language)
+   - [Testing Frameworks](#testing-frameworks)
+   - [Build Tool](#build-tool)
+   - [Reporting](#reporting)
+   - [Other Tools](#other-tools)
+2. [Pre-requisites 📌](#pre-requisites-)
+3. [Project Structure 📜](#project-structure-)
+   - [High-Level Overview](#high-level-overview)
+4. [Dependencies 🖇️](#dependencies-️)
+5. [Clone Project 💾](#clone-project-)
+6. [Execute Tests 🚀](#execute-tests-)
+   - [Running Tests via IDE](#running-tests-via-ide)
+   - [Running Tests via Maven](#running-tests-via-maven)
+7. [Generating Allure Reports 📈](#generating-allure-reports-)
+8. [Tests ✅](#tests-)
+   - [API Tests](#api-tests)
+   - [UI Tests](#ui-tests)
+9. [Evidence of Test Execution 📊](#evidence-of-test-execution-)
+
 ---
 
 ## Technologies Used 🛠️
