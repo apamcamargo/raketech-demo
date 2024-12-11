@@ -1,0 +1,8 @@
+# Set Raketech URL
+rkt_url: https://raketech.com/
+
+# Set api endpoint
+api_base_uri: https://swapi.dev/api/people/
+
+# Set the browser to run UI tests: chrome, firefox or edge
+browser: chrome
