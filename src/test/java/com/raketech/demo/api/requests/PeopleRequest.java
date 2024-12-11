@@ -56,13 +56,6 @@ public class PeopleRequest extends BaseTest{
 			.get(yamlReader.getValue("api_base_uri").toString() + "?page=" + page);
 	}
 
-	@Step("Send GET request to fetch a person by ID {personId}")
-	public Response getPersonById(int personId) {
-		return api.restAssured()
-			.contentType("application/json")
-			.get(yamlReader.getValue("api_base_uri").toString() + "/" + personId);
-	}
-
 	@Step("Validate that results array contains {expectedSize} items")
 	public void validateResultsSize(Response response, int expectedSize) {
 		List<Object> results = api.getJsonpathList(response, "results");
