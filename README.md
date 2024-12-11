@@ -58,16 +58,6 @@ This project is a comprehensive framework for UI and API automation testing. It 
 
 ---
 
-## Pre-requisites
-
-Ensure you have the following tools installed:
-- **Java JDK 17 or higher configured**
-- **Apache Maven 3.8+ configured**
-- **Chrome Browser** (For UI tests)
-- **[Allure Report](https://github.com/afonsopacifer/my-personal-website/blob/master/dev/assets/styles/molecules/box-default.styl)** (For report generation)
-
----
-
 ## Dependencies
 
 Key dependencies used:
@@ -84,14 +74,11 @@ Dependencies are listed in the [pom.xml](pom.xml) file.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/demo-automation.git
+   git clone https://github.com/apamcamargo/raketech-demo.git
 
-2. Clone the repository:
-   ```bash
-   cd demo
-   
-3. Install allure
-- [Allure Installation](https://github.com/afonsopacifer/my-personal-website/blob/master/dev/assets/styles/molecules/box-default.styl)
+2. Go to project folder:
+
+---
 
 ## How to Execute Tests
 ### Running Tests via IDE
@@ -105,6 +92,8 @@ Dependencies are listed in the [pom.xml](pom.xml) file.
 2. Run all tests using Maven
    ```bash
    mvn test
+   
+---
 
 ## Generating Allure Reports
 Make sure you already have Allure Report installed on your machine. To generate the report, follow the steps below.
@@ -112,7 +101,11 @@ Make sure you already have Allure Report installed on your machine. To generate 
 1. After run the tests, open a terminal window on project root folder and run the command
    ```bash
    allure serve allure-results
-   
+
+
+---
+
+
 ## Tests
 ### API
 * 3 reusable tests to validate different characteristics of the characters
@@ -124,6 +117,8 @@ Make sure you already have Allure Report installed on your machine. To generate 
   * Check if R2-D2 is from Naboo planet
   * Check if Leia Organa is from Alderaan planet
   * Check if Beru Whitesun lars is from Tatooine planet
+
+---
 
 # Evidence of Test Execution
 ## API
