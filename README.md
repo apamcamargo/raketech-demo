@@ -2,7 +2,7 @@
 
 ## Overview 📚
 
-This project is a comprehensive framework for UI and API automation testing. It supports Selenium WebDriver for browser-based tests and Rest-Assured for API validations, integrated with Allure for detailed reporting.
+This project is a comprehensive framework for UI and API automation testing. It supports Selenium WebDriver tests for multiples browsers and Rest-Assured for API validations, integrated with Allure for detailed reporting.
 
 ### Table of Contents
 
