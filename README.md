@@ -1,12 +1,12 @@
-# Demo Automation Testing Project
+# Raketech Automation Testing Project
 
-## Overview
+## Overview 🚀
 
 This project is a comprehensive framework for UI and API automation testing. It supports Selenium WebDriver for browser-based tests and Rest-Assured for API validations, integrated with Allure for detailed reporting.
 
 ---
 
-## Technologies Used
+## Technologies Used 🛠️
 
 ### **Programming Language**
 - **Java**
@@ -28,7 +28,7 @@ This project is a comprehensive framework for UI and API automation testing. It 
 
 ---
 
-## Pre-requisites
+## Pre-requisites 📌
 
 1. **Java 17+** installed and properly set up in your system.
 2. **Maven** installed and configured in your PATH.
@@ -40,7 +40,7 @@ This project is a comprehensive framework for UI and API automation testing. It 
 *[Allure Report Installation](https://github.com/afonsopacifer/my-personal-website/blob/master/dev/assets/styles/molecules/box-default.styl)*
 
 
-## Project Structure
+## Project Structure 📜
 
 ### High-Level Overview
 - **`src/test/java`**: Contains all test classes.
@@ -58,7 +58,7 @@ This project is a comprehensive framework for UI and API automation testing. It 
 
 ---
 
-## Dependencies
+## Dependencies 🖇️
 
 Key dependencies used:
 - **JUnit 5**: Test framework.
@@ -70,17 +70,18 @@ Dependencies are listed in the [pom.xml](pom.xml) file.
 
 ---
 
-## Setting Up the Project
+## Clone Project 💾
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/apamcamargo/raketech-demo.git
 
-2. Go to project folder:
+2. Go to project folder
+3. Done, you already can start to use the project
 
 ---
 
-## How to Execute Tests
+## Execute Tests 🚀
 ### Running Tests via IDE
 1. Open the project in your IDE (e.g., IntelliJ IDEA, Eclipse).
 2. Navigate to the desired test class
@@ -95,7 +96,7 @@ Dependencies are listed in the [pom.xml](pom.xml) file.
    
 ---
 
-## Generating Allure Reports
+## Generating Allure Reports 📈
 Make sure you already have Allure Report installed on your machine. To generate the report, follow the steps below.
 
 1. After run the tests, open a terminal window on project root folder and run the command
@@ -106,7 +107,7 @@ Make sure you already have Allure Report installed on your machine. To generate 
 ---
 
 
-## Tests
+## Tests ✅
 ### API
 * 3 reusable tests to validate different characteristics of the characters
   * Check if R2-D2 have the skin_color as white, blue
@@ -120,7 +121,7 @@ Make sure you already have Allure Report installed on your machine. To generate 
 
 ---
 
-# Evidence of Test Execution
+# Evidence of Test Execution 📊
 ## API
 ![Api_results_1.png](/src/test/resources/evidences/Api_results_1.png)
 ![Api_results_2.png](/src/test/resources/evidences/Api_results_2.png)
